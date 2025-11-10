@@ -1,6 +1,6 @@
 id: io.github.Rangi42.polished-map-plusplus
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: polishedmap-plusplus
 finish-args:
