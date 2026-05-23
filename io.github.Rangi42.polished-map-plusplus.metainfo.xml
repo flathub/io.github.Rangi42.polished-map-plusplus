@@ -2,18 +2,41 @@
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 8.0-->
   <id>io.github.Rangi42.polished-map-plusplus</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-3.0-only</project_license>
   <name>Polished Map++</name>
   <summary>Edit pokecrystal maps and tilesets</summary>
   <developer id="io.github.Rangi42">
     <name>Rangi42</name>
   </developer>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LGPL-3.0-only</project_license>
-  <project_group>Polished Map</project_group>
   <description>
-    <p>A map and tileset editor for pokecrystal, pokegold, pokeyellow, pokered, and hacks including Polished Crystal v2, Red++ v3, Orange, Prism, and many more.</p>
-    <p>Polished Map++ is for pokecrystal projects that have added attributes.bin files. If you're working with regular pokecrystal or pokered, don't use ++.</p>
+    <p>A map and tileset editor for pokecrystal, pokegold, pokeyellow, pokered, and hacks
+      including Polished Crystal v2, Red++ v3, Orange, Prism, and many more.</p>
+    <p>Polished Map++ is for pokecrystal projects that have added attributes.bin files.
+      If you're working with regular pokecrystal or pokered, don't use ++.</p>
   </description>
+  <url type="homepage">https://github.com/Rangi42/polished-map</url>
+  <url type="bugtracker">https://github.com/Rangi42/polished-map/issues</url>
+  <url type="vcs-browser">https://github.com/Rangi42/polished-map</url>
+  <categories>
+    <category>Game</category>
+  </categories>
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+  <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.Rangi42.polished-map-plusplus.desktop</launchable>
+  <provides>
+    <binary>polishedmap</binary>
+  </provides>
+  <keywords>
+    <keyword>Nintendo</keyword>
+    <keyword>Pokemon</keyword>
+    <keyword>GameBoy</keyword>
+    <keyword>Hack</keyword>
+    <keyword>Mapeditor</keyword>
+  </keywords>
   <screenshots>
     <screenshot type="default">
       <caption>The Main Window</caption>
@@ -74,25 +97,4 @@
       <url>https://github.com/Rangi42/polished-map/releases/tag/v2.3.0%2B%2B</url>
     </release>
   </releases>
-  <url type="homepage">https://github.com/Rangi42/polished-map</url>
-  <url type="bugtracker">https://github.com/Rangi42/polished-map/issues</url>
-  <categories>
-    <category>Game</category>
-  </categories>
-  <recommends>
-    <control>pointing</control>
-    <control>keyboard</control>
-  </recommends>
-  <content_rating type="oars-1.1"/>
-  <launchable type="desktop-id">io.github.Rangi42.polished-map-plusplus.desktop</launchable>
-  <provides>
-    <binary>polishedmap</binary>
-  </provides>
-  <keywords>
-    <keyword>Nintendo</keyword>
-    <keyword>Pokemon</keyword>
-    <keyword>GameBoy</keyword>
-    <keyword>Hack</keyword>
-    <keyword>Mapeditor</keyword>
-  </keywords>
 </component>

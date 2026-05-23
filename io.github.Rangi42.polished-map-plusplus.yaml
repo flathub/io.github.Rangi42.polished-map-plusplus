@@ -1,6 +1,6 @@
 id: io.github.Rangi42.polished-map-plusplus
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: polishedmap-plusplus
 finish-args:
@@ -8,12 +8,19 @@ finish-args:
   - --socket=x11
   - --device=dri
   - --share=ipc
-
+cleanup:
+  - /include
+  - /share/doc
+  - /share/man
+  - /share/pixmaps
+  - '*.a'
 modules:
   - name: fltk
     buildsystem: autotools
     config-opts:
       - --with-abiversion=10307
+    cleanup:
+      - /bin
     sources:
       - type: git
         url: https://github.com/fltk/fltk.git
@@ -21,8 +28,6 @@ modules:
         commit: 3600522ae7d2244b69552458e4d82f869a36067b
       - type: patch
         path: xdg-dir.patch
-    cleanup:
-      - /share
 
   - name: polished-map
     buildsystem: simple
